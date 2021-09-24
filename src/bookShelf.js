@@ -1,28 +1,15 @@
-import React from "react";
-import bookJson from "./myBooks.json";
+import React, { useState, useEffect, useRef } from "react";
+import "./index.css";
+import Flashcard from './Flashcard'
 
-export default function BookShelf() {
-  function importAll(r) {
-    return r.keys().map(r);
-  }
+export default function BookShelf({flashcards}) {
 
-  const images = importAll(
-    require.context("./imagesBooks", false, /\.(png|jpe?g|svg)$/)
-  );
-console.log(images)
+
+
   return (
-    <div>
-    
-      
-      <img alt="books" src={images[4]} />
-      {bookJson.Books.map((book, i) => {
-
-        return (
-          <div key={i}>
-            <img alt="books" src={images[i].default} />
-            {/* <div>{book.title}</div> */}
-          </div>
-        );
+    <div className='card-grid'>
+      {flashcards.map((book, i) => {
+       return <Flashcard book={book} image={book.image} key={i}></Flashcard>
       })}
     </div>
   );

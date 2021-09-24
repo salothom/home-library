@@ -480,23 +480,7 @@
             "opinion": "Loved",
             "image": "belgarth.jpeg"
         },
-        {
-            "title": "Laugh Out Loud Jokes for Kids",
-            "subtitle": "",
-            "author": "Rob Elliott",
-            "pages": "123",
-            "nonFic": "False",
-            "youth": "True",
-            "femaleLead": "False",
-            "genre": [
-                "Jokes","Humor"
-            ],
-            "published": "2010",
-            "coverColor": "red",
-            "secondaryColor": "teal",
-            "opinion": "Liked",
-            "image": "kidsjokes.jpeg"
-        },
+     
         {
             "title": "The Best Christmas Pageant Ever",
             "subtitle": "",
@@ -599,23 +583,7 @@
             "opinion": "Liked",
             "image": "rangertales.jpeg"
         },
-        {
-            "title": "Our Band Could Be Your Life",
-            "subtitle": "Scenes From the American Indie Underground 1981-1991",
-            "author": "Michael Azerrad",
-            "pages": "501",
-            "nonFic": "True",
-            "youth": "False",
-            "femaleLead": "False",
-            "genre": [
-                "Music","History"
-            ],
-            "published": "2001",
-            "coverColor": "blue",
-            "secondaryColor": "yellow",
-            "opinion": "Liked",
-            "image": "bandcouldbelife.jpeg"
-        }, {
+       {
             "title": "The Power of One",
             "subtitle": "",
             "author": "Bryce Courtenay",
@@ -716,23 +684,7 @@
             "opinion": "liked",
             "image": "mannocountry.jpeg"
         },
-        {
-            "title": "Welcome to the Monkey House",
-            "subtitle": "",
-            "author": "Kurt Vonnegut",
-            "pages": "137",
-            "nonFic": "False",
-            "youth": "False",
-            "femaleLead": "False",
-            "genre": [
-                "Humor","Novel", "Short Stories"
-            ],
-            "published": "2005",
-            "coverColor": "brown",
-            "secondaryColor": "black",
-            "opinion": "liked",
-            "image": "welcometomonkey.jpeg"
-        },
+    
         {
             "title": "Clouds that Look Like Things",
             "subtitle": "From The Cloud Appreciation Society",
