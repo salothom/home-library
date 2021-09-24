@@ -2,7 +2,6 @@ import React, { useState} from "react";
 import "./index.css";
 
 export default function Flashcard({ book, image }) {
-  
   let picture = require("./imagesBooks/" + image);
 
   const [flip, setFlip] = useState();
@@ -34,7 +33,6 @@ export default function Flashcard({ book, image }) {
         })}</div>
       </div>
 
-      {/* {flip?book.title:book.author} */}
     </div>
   );
 }

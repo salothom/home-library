@@ -5,7 +5,6 @@ import Flashcard from './Flashcard'
 export default function BookShelf({flashcards}) {
 
 
-
   return (
     <div className='card-grid'>
       {flashcards.map((book, i) => {
